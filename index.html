@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiet Exit | Close out old startup investments</title>
+  <meta name="description" content="Quiet Exit helps angel investors close out eligible startup share positions and organize the transfer paperwork for their CPA. Request early access.">
+  <meta name="theme-color" content="#14362c">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./waitlist.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="./" aria-label="Quiet Exit home"><span class="mark" aria-hidden="true"></span>Quiet Exit</a>
+      <nav aria-label="Main navigation"><a class="nav-about" href="#process">How it works</a><a class="button outline" href="#early-access">Get early access</a></nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">For angel investors</p>
+          <h1>Close out old<br class="wide-break"> startup investments.</h1>
+          <p class="intro">Quiet Exit helps you complete eligible share transfers and puts the closing paperwork in one place for your CPA.</p>
+          <a class="button primary" href="#early-access">Get early access</a>
+        </div>
+        <figure class="illustration">
+          <div class="packet">
+            <div class="packet-top"><span class="mark" aria-hidden="true"></span><span>Sample closing file</span></div>
+            <h2>Share transfer</h2>
+            <ul><li>Signed transfer agreement</li><li>Required approvals</li><li>Proof of payment</li></ul>
+          </div>
+          <figcaption>Illustrative closing packet</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section id="process" class="wrap process" aria-labelledby="process-title">
+      <h2 id="process-title">How it works</h2>
+      <div class="steps">
+        <article><h3>Tell us what you hold</h3><p>Start with how many old startup investments you have and whether you hold the shares directly.</p></article>
+        <article><h3>Review the transfer</h3><p>For eligible positions, we identify the paperwork and any company approvals needed to move forward.</p></article>
+        <article><h3>Get a closing file</h3><p>Once a transfer closes, you receive the signed records and supporting documents to share with your CPA.</p></article>
+      </div>
+    </section>
+    <section class="signup-section" id="early-access" aria-labelledby="signup-title">
+      <div class="wrap signup-grid">
+        <div>
+          <p class="eyebrow">Early access</p>
+          <h2 id="signup-title">Have a position you’d like to close out?</h2>
+          <p>We’re starting with directly held startup shares. Tell us a little about your portfolio and we’ll reach out if it looks like a fit.</p>
+        </div>
+        <form id="waitlist" aria-describedby="form-note">
+          <div class="fields">
+            <label>Name<input name="name" autocomplete="name" required maxlength="120"></label>
+            <label>Email<input type="email" name="email" autocomplete="email" required maxlength="254"></label>
+            <label>Number of positions<select name="positions" required><option value="">Select one</option><option>1</option><option>2–5</option><option>6–10</option><option>11 or more</option></select></label>
+            <label>How you hold them<select name="ownership" required><option value="">Select one</option><option>Directly</option><option>Through a fund or syndicate</option><option>A mix of both</option><option>Not sure</option></select></label>
+          </div>
+          <p id="form-note" class="form-note">We’ll use these details to contact you about early access. No documents or payment are needed to sign up.</p>
+          <button class="button primary" type="submit" disabled>Request early access</button>
+          <p id="form-status" role="status" aria-live="polite"></p>
+          <noscript><p>Enable JavaScript to use the early-access form.</p></noscript>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap footer">
+    <a class="brand" href="./"><span class="mark" aria-hidden="true"></span>Quiet Exit</a>
+    <p>Your CPA determines how to report any completed transfer.</p>
+  </footer>
+</body>
+</html>
